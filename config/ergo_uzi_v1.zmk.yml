@@ -1,0 +1,12 @@
+file_format: "1"
+id: ergo_uzi_v1
+name: Ergo Uzi v1
+type: shield
+url: 
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - ergo_uzi_v1_left
+  - ergo_uzi_v1_right

@@ -1,0 +1,5 @@
+config SHIELD_ERGO_UZI_LEFT_V1
+    def_bool $(shields_list_contains,ergo_uzi_left_v1)
+	
+config SHIELD_ERGO_UZI_RIGHT_V1
+    def_bool $(shields_list_contains,ergo_uzi_right_v1)
