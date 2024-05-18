@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "ergo_uzi_v1.dtsi"
+#include "ergo_v1.dtsi"
 
 &default_transform {  // The matrix transform for this board is 8 columns over because the left half is 8 columns wide according to the matrix.
     col-offset = <8>; //Furthermore, the column offset for the matrix transform should be added to the right half of the keyboard's overlay because the keyboard's switch matrix is read from left to right, top to bottom

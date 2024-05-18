@@ -1,14 +1,14 @@
-if SHIELD_ERGO_UZI_LEFT_V1
+if SHIELD_ERGO_V1_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Ergo Uzi v1"
+    default "Ergo v1"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_ERGO_UZI_LEFT_V1 || SHIELD_ERGO_UZI_RIGHT_V1
+if SHIELD_ERGO_V1_LEFT || SHIELD_ERGO_V1_RIGHT
 
 config ZMK_SPLIT
     default y
