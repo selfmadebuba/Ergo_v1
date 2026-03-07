@@ -43,7 +43,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)         RC(3,6) RC(3,7)     RC(3
             ;
 
     };
-};
+
 
 physical_layout0: physical_layout_0 {
     compatible = "zmk,physical-layout";
@@ -121,4 +121,6 @@ physical_layout0: physical_layout_0 {
         , <&key_physical_attrs 100 100   650  575   0   0   0>  // RC(5,7)
         , <&key_physical_attrs 100 100   725  575   0   0   0>  // RC(5,8)
         ;
+};
+
 };
