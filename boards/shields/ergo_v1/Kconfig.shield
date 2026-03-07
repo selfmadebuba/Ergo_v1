@@ -1,5 +1,0 @@
-config SHIELD_ERGO_V1_LEFT
-    def_bool $(shields_list_contains,ergo_v1_left)
-	
-config SHIELD_ERGO_V1_RIGHT
-    def_bool $(shields_list_contains,ergo_v1_right)
