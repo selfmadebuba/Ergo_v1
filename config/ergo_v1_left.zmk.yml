@@ -1,0 +1,10 @@
+file_format: "1"
+id: ergo_v1_left
+name: Ergo v1 Left
+type: shield
+url:
+requires: [pro_micro]
+features:
+  - keys
+variants:
+  - id: ergo_v1_left
